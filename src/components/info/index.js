@@ -2,7 +2,7 @@ import "./index.css";
 
 const Info = () => {
   return (
-    <section>
+    <div className="section">
       <div className="texto-objetivo">
         <p>
           Este site é meramente um treino, estou criando sem nenhuma tecnologia
@@ -28,7 +28,7 @@ const Info = () => {
       <div className="div-foto-minha-fundo">
         <div className="foto-minha-fundo"></div>
       </div>
-    </section>
+    </div>
   );
 };
 

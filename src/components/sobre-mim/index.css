@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 40px;
+}
+
+.div-foto-minha-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-minha-perfil {
+    background: url(../../assets/img/foto-minha/foto-perfil.jpg) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+}
+
+.sobre-mim {
+    color: var(--branco);
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.8rem;
+    width: 500px;
+}
+
+.sobre-mim p span,
+.sobre-mim p strong {
+    color: var(--Cyan);
+}
+
+.info-minha {
+    background-color: var(--branco);
+    color: var(--preto);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px #ffffff5c;
+}
+
+.container-info-minha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
