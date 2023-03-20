@@ -1,0 +1,37 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    gap: 50px;
+}
+
+.texto-objetivo {
+    padding: 25px;
+}
+
+.texto-objetivo p {
+    color: var(--branco);
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    width: 500px;
+}
+
+.texto-objetivo p span,
+.texto-objetivo p strong {
+    color: var(--Cyan);
+}
+
+.div-foto-minha-fundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto-minha-fundo {
+    background: url(../../assets/img/foto-minha/foto-fundo.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
