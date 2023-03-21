@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+}
+
+.container-jogos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.jogo {
+    width: 250px;
+    height: 250px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.jogo:hover {
+    opacity: .7;
+}
+
+/* IMPORTAÇÃO DAS FOTOS DOS JOGOS */
+
+.anthem {
+    background: url(../../assets/img/foto-meus-jogos/anthem-logo.jpg) no-repeat center center #000;
+    background-size: cover;
+}
+
+.apex-legends {
+    background: url(../../assets/img/foto-meus-jogos/apex-legends-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.destiny {
+    background: url(../../assets/img/foto-meus-jogos/destiny-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.elite-dangerous {
+    background: url(../../assets/img/foto-meus-jogos/elite-dangerous-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.god-of-war {
+    background: url(../../assets/img/foto-meus-jogos/god-of-war-logo.jpg) no-repeat center center #000;
+    background-size: cover;
+
+}
+
+.grand-chase {
+    background: url(../../assets/img/foto-meus-jogos/grandchase-logo.jpg) no-repeat center center #000;
+    background-size: cover;
+}
+
+.lunia-z {
+    background: url(../../assets/img/foto-meus-jogos/lunia-z-logo.jpg) no-repeat center center #000;
+    background-size: cover;
+}
+
+.minecraft {
+    background: url(../../assets/img/foto-meus-jogos/minecraft-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.path-of-exile {
+    background: url(../../assets/img/foto-meus-jogos/path-of-exile-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.runescape {
+    background: url(../../assets/img/foto-meus-jogos/runescape-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.speed-racer {
+    background: url(../../assets/img/foto-meus-jogos/speedracer-logo.png) no-repeat center center #fff;
+    background-size: cover;
+}
+
+.star-craft-2 {
+    background: url(../../assets/img/foto-meus-jogos/starcraft2-logo.png) no-repeat center center #fff;
+    background-size: cover;
+}
+
+.the-last {
+    background: url(../../assets/img/foto-meus-jogos/the-last-logo.png) no-repeat center center #000;
+    background-size: cover;
+}
+
+.titan-fall-2 {
+    background: url(../../assets/img/foto-meus-jogos/titanfall2-logo.png) no-repeat center center #fff;
+    background-size: cover;
+}
+
+.uncharted {
+    background: url(../../assets/img/foto-meus-jogos/uncharted-logo.jpg) no-repeat center center #000;
+    background-size: cover;
+}
