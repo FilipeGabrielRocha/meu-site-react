@@ -5,6 +5,8 @@
     flex-wrap: wrap;
     width: 1300px;
     margin: 0px auto;
+    /* border: 20px solid black; */
+    margin-bottom: 60px;
 }
 
 .jogo {
