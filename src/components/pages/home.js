@@ -1,3 +1,4 @@
+import { Footer } from "../footer";
 import { FundoVideo } from "../fundo-video";
 import { Header } from "../header";
 import { Info } from "../info";
@@ -12,6 +13,7 @@ const Home = () => {
       <Info />
       <SobreMim />
       <MeusJogos />
+      <Footer />
     </>
   );
 };
