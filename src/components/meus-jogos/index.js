@@ -3,7 +3,7 @@ import { useState } from "react";
 import { abrirModal } from "./services/abrir-modal";
 
 const MeusJogos = () => {
-  const [teste, setTeste] = useState({
+  const [meusJogos, setMeusJogos] = useState({
     caixaJogos: [
       "anthem",
       "apex-legends",
@@ -26,8 +26,14 @@ const MeusJogos = () => {
   return (
     <div>
       <ul className="container-jogos">
-        {teste.caixaJogos.map((caixaJogo, index) => {
-          return <li className={`jogo ${caixaJogo}`} key={index} onClick={abrirModal}></li>;
+        {meusJogos.caixaJogos.map((caixaJogo, index) => {
+          return (
+            <li
+              className={`jogo ${caixaJogo}`}
+              key={index}
+              onClick={abrirModal}
+            ></li>
+          );
         })}
       </ul>
     </div>

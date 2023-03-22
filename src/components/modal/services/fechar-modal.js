@@ -1,8 +1,10 @@
 const fecharModal = () => {
-    const modal = document.querySelector('.modal');
-    modal.classList.remove('aberto')
-    console.log(modal);
-}
+  const modal = document.querySelector(".modal");
+  const tela = document.querySelector(".tela");
+  const tirandoClasse = tela.classList[1];
 
-export { fecharModal }
+  modal.classList.remove("aberto");
+  tela.classList.remove(tirandoClasse);
+};
 
+export { fecharModal };
