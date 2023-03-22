@@ -19,7 +19,7 @@ const SobreMim = () => {
         </p>
 
         <div className="container-info-minha">
-          <div class="info-minha">
+          <div className="info-minha">
               <p>
                 <strong>Nome:</strong> Filipe Gabriel Rocha<br />
                 <strong>Nascimento:</strong> 14/11/2000<br />

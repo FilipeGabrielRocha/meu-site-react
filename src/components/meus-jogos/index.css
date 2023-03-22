@@ -1,3 +1,7 @@
+ul li {
+    margin: 0;
+}
+
 .container-jogos {
     display: flex;
     align-items: center;
