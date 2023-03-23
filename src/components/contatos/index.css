@@ -108,6 +108,6 @@
     }
 
     .container-meu-contato {
-        height: 100vh;
+        height: calc(100vh - 110px);
     }
 }
