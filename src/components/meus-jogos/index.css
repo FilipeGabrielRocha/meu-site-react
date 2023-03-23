@@ -20,6 +20,20 @@
     opacity: .7;
 }
 
+/* TELA 320PX ATÉ 480PX */
+
+@media (max-width: 480px){
+    .container-jogos {
+        width: 320px;
+        margin-bottom: 20px
+    }
+
+    .jogo {
+        width: 106.6px;
+        height: 106.6px;
+    }
+}
+
 /* IMPORTAÇÃO DAS FOTOS DOS JOGOS */
 
 .anthem {

@@ -13,35 +13,35 @@ const Footer = () => {
 
       <nav>
         <ul>
-          <li>
+          <li className="links">
             <Link className="link-2">Home</Link>
           </li>
-          <li>
+          <li className="links">
             <Link className="link-2">Meus Jogos</Link>
           </li>
-          <li>
+          <li className="links">
             <Link className="link-2">Sobre</Link>
           </li>
         </ul>
       </nav>
 
       <ul className="social">
-        <li>
+        <li className="links">
           <Link to="https://www.linkedin.com/in/filipe-gabriel-rocha-a4446516a/" target="_blank" className="link-social linkedin">
             <FaLinkedinIn />
           </Link>
         </li>
-        <li>
+        <li className="links">
           <Link to="https://github.com/FilipeGabrielRocha" target="_blank" className="link-social github">
             <FaGithub />
           </Link>
         </li>
-        <li>
+        <li className="links">
           <Link to="https://www.instagram.com/_filiperochaa/" target="_blank" className="link-social instagram">
             <FaInstagram />
           </Link>
         </li>
-        <li>
+        <li className="links">
           <Link to="https://filipegabrielrocha.github.io/portfolio/" target="_blank" className="link-social site">
             <FaServer />
           </Link>

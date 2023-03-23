@@ -15,7 +15,7 @@
     box-shadow: 0px 0px 20px #000;
 }
 
-ul li {
+ul .links {
     margin: 0 10px 20px 10px;
 }
 
@@ -61,4 +61,25 @@ ul li {
 .link-social.site:hover {
     color: var(--branco);
     background-color: var(--preto);
+}
+
+/* TELA 320PX ATÉ 480PX */
+
+@media (max-width: 480px){
+    .imagem {
+        height: 100px;
+        width: 100px;
+    }
+
+    .link-2 {
+        font-size: 1.8rem;
+    }
+
+    .link-social {
+        font-size: 3rem;
+    }
+
+    ul .links {
+        margin: 0 5px 20px 5px;
+    }
 }

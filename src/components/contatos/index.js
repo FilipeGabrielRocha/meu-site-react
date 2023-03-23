@@ -11,8 +11,8 @@ const Contatos = () => {
       <div class="container-meus-contatos">
         <h1 className="titulo-meus-contatos">Meus Contatos</h1>
         <p className="email-meus-contatos">
-          <span className="span-meus-contatos">E-mail:</span>
-          <br /> filiperochaprogramador@gmail.com
+          <p className="span-meus-contatos">E-mail:</p>
+          <p>filiperochaprogramador@gmail.com</p>
         </p>
         <ul className="lista-meus-contatos">
           <li>

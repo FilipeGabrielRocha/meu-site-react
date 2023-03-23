@@ -7,16 +7,17 @@ const SobreMim = () => {
         <div className="foto-minha-perfil"></div>
       </div>
       <div className="sobre-mim">
-        <p>Oi, Meu nome é Filipe Gabriel Rocha, seja bem-vindo(a)!</p>
-
-        <p>
-          Sou apaixonado por tecnologia, entrei na área de estudo da programação
-          desde 2020, comecei por backend, mas quando tive um contato com
-          frontend foi o momento que realmente vi que queria seguir carreira por
-          lá, desde então estou estudando as tecnologias <span>HTML</span>,{" "}
-          <span>CSS</span> e <span>JavaScript</span> e me aventurando nos
-          frameworks.
-        </p>
+        <div className="sobre-mim-texto">
+          <p>Oi, Meu nome é Filipe Gabriel Rocha, seja bem-vindo(a)!</p>
+          <p>
+            Sou apaixonado por tecnologia, entrei na área de estudo da programação
+            desde 2020, comecei por backend, mas quando tive um contato com
+            frontend foi o momento que realmente vi que queria seguir carreira por
+            lá, desde então estou estudando as tecnologias <span>HTML</span>,{" "}
+            <span>CSS</span> e <span>JavaScript</span> e me aventurando nos
+            frameworks.
+          </p>
+        </div>
 
         <div className="container-info-minha">
           <div className="info-minha">

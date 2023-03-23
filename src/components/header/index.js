@@ -9,8 +9,17 @@ const Header = () => {
         <Link className="logo" to={"/"}>
           <img src={logo} alt="Logo do Site" />
         </Link>
+
         <nav>
-          <ul>
+          <input type="checkbox" name="" id="menu-hamburguer" />
+
+          <label htmlFor="menu-hamburguer">
+            <div className="menu">
+              <span className="hamburguer"></span>
+            </div>
+          </label>
+
+          <ul className="nav-header">
             <li className="bar-nav-link"><Link to={"/"} className="link">Home</Link></li>
             <li className="bar-nav-link"><Link to={"/"} className="link">Sobre</Link></li>
             <li className="bar-nav-link"><Link to={"/"} className="link">Meus Jogos</Link></li>

@@ -33,7 +33,7 @@
     color: var(--Cyan);
 }
 
-.info-minha {
+.container-info-minha .info-minha {
     background-color: var(--branco);
     color: var(--preto);
     text-align: left;
@@ -47,4 +47,43 @@
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+}
+
+#idade {
+    color: var(--preto);
+}
+
+/* TELA 320PX ATÉ 480PX */
+@media (max-width: 480px){
+    .container {
+        flex-direction: column;
+        height: 100%;
+        gap: 0;
+    }
+
+    .div-foto-minha-perfil {
+        width: 100%;
+        height: 320px;
+    }
+
+    .foto-minha-perfil {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 0px;
+    }
+
+    .sobre-mim {
+        width: 100%;
+        padding: 25px;
+        margin-top: 0px;
+    }
+
+    .sobre-mim .sobre-mim-texto {
+        font-size: 1.6rem;
+        text-align: justify;
+    }
+
+    .info-minha {
+        font-size: 1.55rem;
+    }
 }

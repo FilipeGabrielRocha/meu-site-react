@@ -24,6 +24,9 @@
 }
 
 .email-meus-contatos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 2rem;
     margin-bottom: 20px;
     background-color: var(--DarkBlue4);
@@ -41,13 +44,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: left;
     color: var(--DarkBlue4);
+    /* width: 400px; */
 }
 
 .lista-meus-contatos li {
+    display: flex;
+    margin: 5px 0;
     font-size: 3rem;
-    width: 400px;
 }
 
 .meus-contatos {
@@ -78,4 +82,32 @@
 .meus-contatos.site:hover {
     color: var(--branco);
     background-color: var(--preto);
+}
+
+/* TELA 320PX ATÉ 480PX */
+@media (max-width: 480px){
+    .titulo-meus-contatos {
+        font-size: 3rem;
+    }
+
+    .email-meus-contatos {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .lista-meus-contatos {
+        width: 100%;
+    }
+
+    .meus-contatos {
+        font-size: 2rem;
+    }
+
+    .container-meus-contatos {
+        width: 90%;
+    }
+
+    .container-meu-contato {
+        height: 100vh;
+    }
 }

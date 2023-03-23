@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    height: calc(100vh - 115px);
     gap: 50px;
 }
 
@@ -35,3 +35,35 @@
     height: 500px;
     width: 500px;
 }
+
+/* TELA 320PX */
+@media (max-width: 480px){
+    .section {
+        flex-direction: column;
+        height: 100%;
+        gap: 0px;
+    }
+
+    .texto-objetivo {
+        padding: 20px;
+    }
+
+    .texto-objetivo p {
+        width: 100%;
+        text-align: justify;
+        font-size: 1.6rem;
+        margin-bottom: 0px;
+    }
+
+    .div-foto-minha-fundo {
+        width: 320px;
+        height: 320px;
+    }
+
+    .foto-minha-fundo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* TELA 480PX */

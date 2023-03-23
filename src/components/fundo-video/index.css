@@ -21,3 +21,9 @@
 .video {
     height: 100vh;
 }
+
+@media (max-width: 600px){
+    .video-fundo {
+        display: none;
+    }
+}

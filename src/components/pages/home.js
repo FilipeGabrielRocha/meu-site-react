@@ -5,10 +5,11 @@ import { Info } from "../info";
 import { MeusJogos } from "../meus-jogos";
 import { Modal } from "../modal";
 import { SobreMim } from "../sobre-mim";
+import { calcIdade } from "../sobre-mim/services/idade";
 
 const Home = () => {
   return (
-    <>
+    <div onLoad={calcIdade}>
       <Modal />
       <FundoVideo />
       <Header />
@@ -16,7 +17,7 @@ const Home = () => {
       <SobreMim />
       <MeusJogos />
       <Footer />
-    </>
+    </div>
   );
 };
 
