@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     padding: 20px 30px;
     min-height: 75px;
-    height: 15vh;
+    /* height: 15vh; */
     background-color: var(--DarkBlue4);
 }
 

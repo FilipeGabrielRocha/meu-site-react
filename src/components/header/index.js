@@ -11,10 +11,10 @@ const Header = () => {
 
       <nav>
         <ul>
-          <li className="bar-nav-link"><Link className="link">Home</Link></li>
-          <li className="bar-nav-link"><Link className="link">Sobre</Link></li>
-          <li className="bar-nav-link"><Link className="link">Meus Jogos</Link></li>
-          <li className="bar-nav-link"><Link className="link">Contato</Link></li>
+          <li className="bar-nav-link"><Link to={"/"} className="link">Home</Link></li>
+          <li className="bar-nav-link"><Link to={"/"} className="link">Sobre</Link></li>
+          <li className="bar-nav-link"><Link to={"/"} className="link">Meus Jogos</Link></li>
+          <li className="bar-nav-link contato"><Link to={"/contato"} className="link">Contato</Link></li>
         </ul>
       </nav>
     </header>

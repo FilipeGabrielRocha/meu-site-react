@@ -1,7 +1,3 @@
-ul li {
-    margin: 0;
-}
-
 .container-jogos {
     display: flex;
     align-items: center;
@@ -9,11 +5,11 @@ ul li {
     flex-wrap: wrap;
     width: 1300px;
     margin: 0px auto;
-    /* border: 20px solid black; */
     margin-bottom: 60px;
 }
 
 .jogo {
+    margin: 0;
     width: 250px;
     height: 250px;
     transition: .2s ease-in-out;
