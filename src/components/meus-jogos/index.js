@@ -3,7 +3,7 @@ import { useState } from "react";
 import { abrirModal } from "./services/abrir-modal";
 
 const MeusJogos = () => {
-  const [meusJogos, setMeusJogos] = useState({
+  const [meusJogos] = useState({
     caixaJogos: [
       "anthem",
       "apex-legends",
@@ -37,53 +37,6 @@ const MeusJogos = () => {
         })}
       </ul>
     </div>
-    // <div className="container-jogos">
-    //   <div className="jogo anthem">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo apex-legends">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo destiny">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo elite-dangerous">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo god-of-war">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo grand-chase">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo lunia-z">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo minecraft">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo path-of-exile">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo runescape">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo speed-racer">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo star-craft-2">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo the-last">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo titan-fall-2">
-    //     <Link></Link>
-    //   </div>
-    //   <div className="jogo uncharted">
-    //     <Link></Link>
-    //   </div>
-    // </div>
   );
 };
 
