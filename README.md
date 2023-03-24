@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# meu Site no React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+É um projeto antigo que foi feito em HTML, CSS e JavaScript que agora estou passando para o React.
+O intuito é praticar o uso do React.
 
-## Available Scripts
+Link do Site só HTML, CSS, JavaScript: https://filipegabrielrocha.github.io/meu-site/
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Site no Desktop
+![visao-completa-desktop](https://user-images.githubusercontent.com/94459039/227512727-29c8bf31-531e-453a-8694-2f531291cd0e.jpg)
+## Modal ao clicar em algum jogo
+![pc4](https://user-images.githubusercontent.com/94459039/227512804-7ce7e921-0ec0-41ae-bf1e-c31382ab21a4.jpg)
+## Site na versão Mobile
+![1](https://user-images.githubusercontent.com/94459039/227512842-43d38661-4efe-4963-b9d5-98949aaed667.jpg)
+![2](https://user-images.githubusercontent.com/94459039/227512853-c9af15ef-4074-482a-a225-77844f1a8495.jpg)
+![3](https://user-images.githubusercontent.com/94459039/227512925-4b5440c7-02a3-4efd-be7a-cb03547a4c81.jpg)
+![4](https://user-images.githubusercontent.com/94459039/227512930-e3f9c339-cc6d-4334-a1ac-4f5fbf4b1b2d.jpg)
+## Menu na versão Mobile
+![6](https://user-images.githubusercontent.com/94459039/227513304-9ff2f79a-4bcd-4ef4-879e-c0bbad9244f5.jpg)
+![5](https://user-images.githubusercontent.com/94459039/227512977-b8433039-f3bc-4413-9d09-dc0bff33e70d.jpg)
