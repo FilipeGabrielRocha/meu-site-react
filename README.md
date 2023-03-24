@@ -1,4 +1,4 @@
-# meu Site no React
+# Meu Site no React
 
 É um projeto antigo que foi feito em HTML, CSS e JavaScript que agora estou passando para o React.
 O intuito é praticar o uso do React.
