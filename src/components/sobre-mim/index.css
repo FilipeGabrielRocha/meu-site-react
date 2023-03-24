@@ -62,8 +62,9 @@
     }
 
     .div-foto-minha-perfil {
-        width: 100%;
+        width: 320px;
         height: 320px;
+        margin-top: 20px;
     }
 
     .foto-minha-perfil {
